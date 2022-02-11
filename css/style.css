@@ -1,0 +1,30 @@
+body {
+  margin: 30px;
+}
+.row {
+  display: flex;
+  max-width: fit-content;
+  min-height: 50px;
+  background-color: #20861f9e;
+}
+
+.elem {
+  width: 75px;
+  height: 75px;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+
+.dino {
+  background-image: url(/image/dino.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.volcan {
+  background-image: url(/image/volcano.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
